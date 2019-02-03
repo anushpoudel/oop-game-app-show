@@ -101,14 +101,12 @@ class Game{
     gameOver(gameWon) {
         $('#overlay').show();
         if (gameWon == true){
-             $('#overlay h1').text('Great! You guessed it right.');
+             document.querySelector('#overlay h1').textContent = 'Great! You guessed it right.';
             document.querySelector('#overlay').className = 'win';
         } else if (gameWon == false){
-            $('#overlay h1').text('Oops! Better luck next time. ');
+            document.querySelector('#overlay h1').innerHTML = `Oops! Better luck next time.<br>The song was: ${this.activePhrase.phrase.toUpperCase()} ~ ${this.activePhrase.artist.toUpperCase()}`;
             document.querySelector('#overlay').className = 'lose';
-            const p = document.createElement('h1');
-            p.textContent = `The song was: ${this.activePhrase.phrase.toUpperCase()} ~ ${this.activePhrase.artist.toUpperCase()}`;
-            document.querySelector('#overlay').insertBefore(p, document.querySelector('#overlay').lastElementChild );
+
         }
 
     };
