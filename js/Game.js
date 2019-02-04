@@ -24,7 +24,7 @@ class Game{
             new Phrase('Bohemian Rhapsody', 'Queen'),
             new Phrase('Somebody to Love', 'Queen'),
             new Phrase('Dont stop me now', 'Queen'),
-            new Phrase('My Way', 'Frank Sintara')
+            new Phrase('My Way', 'Frank Sinatra')
         ];
 
         return phrases;

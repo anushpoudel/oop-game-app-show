@@ -10,3 +10,4 @@ Guess the Song!
 
 # V1.1
 1) Fixed lost message appearing more than once.
+2) Corrected spelling for Frank Sinatra's name xD
