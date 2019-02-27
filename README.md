@@ -1,6 +1,7 @@
 # oop-game-app-show
-Treehouse Project 4 (Object Oriented Programming- Game App Show)
+Object Oriented Programming- Game App Show
 Guess the Song!
+Live Demo here: https://anushpoudel.github.io/oop-game-app-show/
 
 # V1.0
 1) Added all basic functionality to the game
